@@ -6,3 +6,4 @@ requests
 scikit-fuzzy
 numpy
 scipy
+networkx
