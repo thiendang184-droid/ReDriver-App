@@ -36,7 +36,7 @@ def set_background(image_file):
         st.warning("⚠️ Không tìm thấy file ảnh nền! Hãy kiểm tra lại đường dẫn.")
 
 # 🔴 ĐƯỜNG DẪN ẢNH NỀN
-set_background("C:\\UEH\\AI\\Homework fuzzy\\fuzzy_taxi-20260502T115840Z-3-001\\fuzzy_taxi\\pngtree-abstract-circular-gray-white-gradient-background-image_754036.jpg")
+set_background("pngtree-abstract-circular-gray-white-gradient-background-image_754036.jpg")
 
 # --- CUSTOM CSS KHÁC ---
 st.markdown("""
@@ -98,7 +98,7 @@ if 'ride_data' not in st.session_state:
 col_space_left, col_logo, col_space_right = st.columns([3.5, 3, 3.5])
 
 with col_logo:
-    st.image("C:\\UEH\\AI\\Homework fuzzy\\fuzzy_taxi-20260502T115840Z-3-001\\fuzzy_taxi\\logo.png", use_container_width=True)
+    st.image("logo.png", use_container_width=True)
     st.markdown('<div class="slogan-text">Bật đỏ - Tới ngay</div>', unsafe_allow_html=True)
 
 col_taskbar, col_map = st.columns([4.5, 5.5], gap="large")
