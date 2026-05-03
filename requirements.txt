@@ -5,3 +5,4 @@ polyline
 requests
 scikit-fuzzy
 numpy
+scipy
